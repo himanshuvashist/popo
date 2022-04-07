@@ -4,12 +4,22 @@
 
 
 
-// 1
+// false	        The keyword false.
+// 0,-0,0n	            The Number zero (so, also 0.0, etc., and 0x0).
+//                      The Number negative zero (so, also -0.0, etc., and -0x0).
+//      	            The BigInt zero (so, also 0x0n). Note that there is no BigInt negative zero — the negation of 0n is 0n.
+// "", '', ``	    Empty string value.
+// null	            the absence of any value.
+// undefined	    undefined — the primitive value.
+// NaN              not a number.
+
+
+// 1, 'yes'
 if(true){
     console.log('shall i run 1')
 }
 
-// 2
+// 2, 'yes'
 if('wooo'){
     console.log('shall i run 2')
 }
@@ -19,7 +29,7 @@ if(undefined){
     console.log('shall i run 3')
 }
 
-// 4
+// 4 'yes'
 if('hoi hoi'){
     console.log('shall i run 4')
 }
@@ -29,7 +39,7 @@ if(null){
     console.log('shall i run 5')
 }
 
-// 6
+// 6, 'yes'
 if('null'){
     console.log('shall i run 6')
 }
@@ -39,17 +49,17 @@ if(""){
     console.log('shall i run 7')
 }
 
-// 8
+// 8, 'yes'
 if(4){
     console.log('shall i run 8')
 }
 
-// 9
+// 9, 'yes'
 if({}){
     console.log('shall i run 9')
 }
 
-// 10
+// 10, 'yes'
 if({name:'vijay'}){
     console.log('shall i run 10')
 }
@@ -59,12 +69,12 @@ if(0){
     console.log('shall i run 11')
 }
 
-// 12
+// 12, 'yes'
 if([]){
     console.log('shall i run 12')
 }
 
-// 13
+// 13, 'yes'
 if('he'){
     console.log('shall i run 13')
 }
@@ -102,7 +112,7 @@ if('he'){
 //      |   T   	||  F   |
 //      |   F   	||  T   |
 
-// 14
+// 14, 'yes'
 if([] && []){
     console.log('shall i run 14')
 }
@@ -116,7 +126,7 @@ if(true && false){
     console.log('shall i run 16')
 }
 
-// 17
+// 17, 'yes'
 if(true && true){
     console.log('shall i run 17')
 }
@@ -126,12 +136,12 @@ if(false || false){
     console.log('shall i run 18')
 }
 
-// 19
+// 19, 'yes'
 if(null || 'goody'){
     console.log('shall i run 19')
 }
 
-// 20
+// 20, 'yes'
 if(!undefined){
     console.log('shall i run 20')
 }
@@ -141,7 +151,7 @@ if(!'hi'){
     console.log('shall i run 21')
 }
 
-// 22
+// 22, 'yes'
 if('hi' || !29){
     console.log('shall i run 22')
 }
@@ -151,7 +161,7 @@ if(!29 || 0){
     console.log('shall i run 23')
 }
 
-// 24
+// 24, 'yes'
 if(83 && 93){
     console.log('shall i run 24')
 }
@@ -166,12 +176,12 @@ if(!90 && !1){
     console.log('shall i run 26')
 }
 
-// 27
+// 27, 'yes'
 if(-9 && 8){
     console.log('shall i run 27')
 }
 
-// 28
+// 28, 'yes'
 if(9>8 && !8<9){
     console.log('shall i run 28')
 }
@@ -181,12 +191,12 @@ if(0>1 && !'ummm'){
     console.log('shall i run 29')
 }
 
-// 30
+// 30, 'yes'
 if('pie' && 'lovely'){
     console.log('shall i run 30')
 }
 
-// 31
+// 31, 'yes'
 if(function something(){}){
     console.log('shall i run 31')
 }
@@ -196,12 +206,12 @@ if(!['1','2']){
     console.log('shall i 32')
 }
 
-// 33
+// 33, 'yes'
 if(1>8 || 9<12 || 'i'=== 'i'){
     console.log('shall i run 33')
 }
 
-// 34
+// 34, 'yes'
 if(false === false){
     console.log('shall i run 34')
 }
@@ -229,17 +239,17 @@ if(layer() && 'care'){
     console.log('shall i run 37')
 }
 
-// 38
+// 38, 'yes'
 if(!{} || {}){
     console.log('shall i run 38')
 }
 
-// 39
+// 39, 'yes'
 if(!!'always'){
     console.log('shall i run 39')
 }
 
-// 40
+// 40, 'yes'
 if(!!'something' || true){
     console.log('shall i run 40')
 }
