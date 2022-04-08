@@ -115,6 +115,49 @@ if(amIGreaterThen50(zTwo)){
     a.push(zTwo)
 }
 
+// 6
+// return back new array in reverse order, for example [1,2,3] should return [3,2,1]
+
+// TODO,make fun here *********************
+
+const ab = giveMeNewReversedArray([1,2,3,4,5,6])
+console.log(ab)
+const ac = giveMeNewReversedArray([11,12,13,14,15,16])
+console.log(ac)
+console.log(giveMeNewReversedArray([-1,-2,-3,-4,-5,-6]))
+console.log(giveMeNewReversedArray(["one","two","three","four","five","six"]))
+console.log(giveMeNewReversedArray([{name:'a'},{name:'b'},{name:'c'}]))
+
+// 7
+// replace numbers with 0 if it is greater than 15 and return a new array
+// for example [1,25,89] should become [1,25,0]
+
+// TODO,make fun here *********************
+
+
+replaceInThisArrayAndGiveMeNewArray([1,25,83])
+
+var aa = replaceInThisArrayAndGiveMeNewArray([88,99,100])
+console.log(aa)
+
+var bb = replaceInThisArrayAndGiveMeNewArray([1,55,8000,-9,4])
+console.log(bb)
+
+
+
+// 8
+// replace char with a 
+// for example "ummm" should become "aaa"
+
+// TODO,make fun here *********************
+
+const one = 'something'
+const two = 'something'
+const three = 'oeeeeee'
+const m = modifyMe(one)
+console.log(m)
+console.log(modifyMe(two))
+console.log(modifyMe(three))
 
 
 
