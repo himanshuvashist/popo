@@ -144,10 +144,35 @@ var bb = replaceInThisArrayAndGiveMeNewArray([1,55,8000,-9,4])
 console.log(bb)
 
 
-
 // 8
+// make a function that take one charcter at a time and insert that character into c
+
+var c = ""
+
+function insertIntoC(){
+//     TODO, modify accordingly
+}
+
+insertIntoC('G')
+insertIntoC('O')
+insertIntoC('O')
+insertIntoC('D')
+insertIntoC('Y')
+insertIntoC(' ')
+insertIntoC('N')
+insertIntoC('I')
+insertIntoC('G')
+insertIntoC('H')
+insertIntoC('T')
+
+// after calling all these functions , c should contain "GOODY NIGHT"
+
+
+
+// 9
 // replace char with a 
-// for example "ummm" should become "aaa"
+// for example "ummm" should become "aaa", 'ooooo' should become 'aaaaa'
+console.log(c)
 
 // TODO,make fun here *********************
 
@@ -158,6 +183,23 @@ const m = modifyMe(one)
 console.log(m)
 console.log(modifyMe(two))
 console.log(modifyMe(three))
+
+// 10
+// replace all 'a' with 'b' and all the other characters with 'a'
+// ex - 'apple' -> 'baaaa'
+// ex - 'banana' -> 'ababab'
+
+function replaceHere(){
+    
+    
+}
+
+console.log(replaceHere('apple'))
+console.log(replaceHere('banana'))
+console.log(replaceHere('kiwi'))
+console.log(replaceHere('tarbooz'))
+console.log(replaceHere('kiki'))
+
 
 
 
