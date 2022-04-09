@@ -72,10 +72,25 @@ insertMeInArray('💮')
 // checking if all the values have been inserted or not
 console.log(a)
 
-
-
-
 // 5
+// insert the arguments in the array as this object, {name:'🌚'}
+var a = []
+// TODO,make fun here *********************
+
+
+
+
+
+insertMeInArrayAsObj('🌚')
+insertMeInArrayAsObj('🌞')
+insertMeInArrayAsObj('⛄')
+insertMeInArrayAsObj('❄️')
+insertMeInArrayAsObj('💮')
+
+// checking if all the values have been inserted or not
+console.log(a)   // this should contain [{name:'🌚'},{name:'🌞},{name:'⛄'},{name:'❄️'},{name:'💮'}]
+
+// 6
 var a = []
 // here we have to insert in the array a which are greater than 50,so below we have written the algorithm
 // for it but it is incomplete , complete it by writting  a function which gives truthy and falsy values
@@ -115,7 +130,7 @@ if(amIGreaterThen50(zTwo)){
     a.push(zTwo)
 }
 
-// 6
+// 7
 // return back new array in reverse order, for example [1,2,3] should return [3,2,1]
 
 // TODO,make fun here *********************
@@ -128,7 +143,7 @@ console.log(giveMeNewReversedArray([-1,-2,-3,-4,-5,-6]))
 console.log(giveMeNewReversedArray(["one","two","three","four","five","six"]))
 console.log(giveMeNewReversedArray([{name:'a'},{name:'b'},{name:'c'}]))
 
-// 7
+// 8
 // replace numbers with 0 if it is greater than 15 and return a new array
 // for example [1,25,89] should become [1,25,0]
 
@@ -144,7 +159,7 @@ var bb = replaceInThisArrayAndGiveMeNewArray([1,55,8000,-9,4])
 console.log(bb)
 
 
-// 8
+// 9
 // make a function that take one charcter at a time and insert that character into c
 
 var c = ""
@@ -169,7 +184,7 @@ insertIntoC('T')
 
 
 
-// 9
+// 10
 // replace char with a 
 // for example "ummm" should become "aaa", 'ooooo' should become 'aaaaa'
 console.log(c)
@@ -184,7 +199,7 @@ console.log(m)
 console.log(modifyMe(two))
 console.log(modifyMe(three))
 
-// 10
+// 11
 // replace all 'a' with 'b' and all the other characters with 'a'
 // ex - 'apple' -> 'baaaa'
 // ex - 'banana' -> 'ababab'
