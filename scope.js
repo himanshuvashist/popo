@@ -57,8 +57,6 @@ function walk() {
 
 walk();
 
-var pet;
-
 // *** 5 ***
 
 var pet = "doggy";
