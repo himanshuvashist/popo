@@ -1,4 +1,4 @@
-// do all question with for loop first and then with forEach
+// do all question which require iteration, with for loop first and then with forEach
 
 // --1--
 // make a new array containing data like this [{position:'one'},{position:'two'}...]
@@ -115,3 +115,24 @@ const datayou = "you";
 const datame = "me";
 const datawater = "water";
 const datarice = "rice";
+
+// --14--
+// tell for every number if that is prime and greater then five or not
+const dataNumberOne = 1;
+const DataNumberTwo = 2;
+const DataNumberThree = 3;
+const DataNumberFour = 4;
+const DataNumberFive = 5;
+const DataNumberSix = 6;
+const DataNumberSeven = 7;
+
+// --15--
+// tell for every number if that is prime and greater then five or not
+// just console like this
+// 1 is prime and not less then 5
+// 2 is prime and not less then 5
+// 3 is prime and not less then 5
+// ...
+// 7 is prime and greater then 5
+
+const dataTwentyOne = [1, 2, 3, 4, 5, 6, 7];
